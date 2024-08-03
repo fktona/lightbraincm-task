@@ -88,7 +88,7 @@ const DetailedListing = () => {
       <div className="md:hidden flex justify-center mb-4">
         <button
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-          className="bg-blue-500 text-white px-4 py-2 rounded shadow-md w-fit"
+          className="bg-blue-500 rounded-md text-white px-4 py-2  shadow-md w-fit"
         >
           Filters & Sorting
         </button>
@@ -106,7 +106,7 @@ const DetailedListing = () => {
             {sortKey === 'price' && (sortOrder === 'asc' ? '↑' : '↓')}
           </button>
           <button
-            className="  bg-transparent  w-fit text-white px-4 py-2 rounded-[30px] border-2 text-black border-blue-900 shadow-md  md:w-auto mx-2"
+            className="  bg-transparent  w-fit px-4 py-2 rounded-[30px] border-2 text-black border-blue-900 shadow-md  md:w-auto mx-2"
             onClick={() => handleSortChange('ratings')}
           >
             Sort by Rating{' '}

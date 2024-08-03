@@ -21,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/footer.png" type="image/x-icon" />
       <body className={inter.className}>
         <MenuProvider>
           <ScrollProvider>
