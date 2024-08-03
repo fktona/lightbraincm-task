@@ -22,7 +22,7 @@ const HostelCard: React.FunctionComponent<{ hostel: Hostel }> = ({
             width={500}
             height={350}
             objectFit="contain"
-            className="w-full  aspect-video"
+            className="w-full  aspect-video" 
           />
                     { id === 1 &&
                      <span className='bg-orange-300 flex items-center justify-center gap-3 z-50 absolute bottom-0 
