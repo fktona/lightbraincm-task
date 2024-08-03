@@ -21,8 +21,8 @@ Follow the steps below to set up and run the project.
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone [<repository-url>](https://github.com/fktona/lightbraincm-task.git)
+cd lightbraincm-task
 ```
 
 ### Running the Project Locally (Without Docker)
@@ -91,15 +91,6 @@ If you make changes to the Dockerfile or `docker-compose.yml` and need to rebuil
 docker-compose up --build
 ```
 
-### Running Tests
-
-To run tests for the project, use the following command:
-
-```bash
-npm test
-# or
-yarn test
-```
 
 ### Linting and Formatting
 
