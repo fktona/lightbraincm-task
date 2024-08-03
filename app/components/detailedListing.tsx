@@ -118,7 +118,7 @@ const DetailedListing = () => {
             className="bg-transparent relative hover:bottom-1 transition-all duration-300 border-blue-900 border-2 w-fit  px-4 py-2 rounded-[30px] text-black shadow-md  md:w-auto mx-2"
             onClick={() => handleSortChange('price')}
           >
-            Sort by Price{' '}
+            Sort by Price{' '} 
             {sortKey === 'price' && (sortOrder === 'asc' ? '↑' : '↓')}
           </button>
           <button

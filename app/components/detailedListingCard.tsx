@@ -116,7 +116,7 @@ const HostelDetails: React.FunctionComponent<{ hostel: Hostel }> = ({
         </div>
       </div>
     </section>
-  );
+  ); 
 };
 
 export default HostelDetails;

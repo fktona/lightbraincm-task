@@ -23,7 +23,7 @@ const HostelCard: React.FunctionComponent<{ hostel: Hostel }> = ({
             height={350}
             objectFit="contain"
             className="w-full  aspect-video" 
-          />
+          /> 
                     { id === 1 &&
                      <span className='bg-orange-300 flex items-center justify-center gap-3 z-50 absolute bottom-0 
                      w-full text-[12px] text-white py-1 text-center'><TagIcon color='#edd45a' size={16} strokeWidth={4} className='rotate-90'/>{price} Uber voucher</span>}

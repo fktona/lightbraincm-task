@@ -44,7 +44,7 @@ const FeaturedSection = () => {
             <span className='text-[16px] font-semibold leading-7'>
               More Collected Properties near University College London
             </span>
-            <Link href='/listing'>  
+            <Link href='/listing'>   
             <button className='w-full py-2 bg-green-600 hover:bg-green-700 hover:scale-[1.08] transition-all duration-300'>
               CheckOut
             </button>
