@@ -1,7 +1,6 @@
-Here's a comprehensive README file detailing each step to run the Next.js TypeScript project, both locally and with Docker, along with additional information about the project:
 
-```markdown
-# Next.js TypeScript Project
+
+# Next.js
 
 ## Requirements
 
@@ -21,7 +20,7 @@ Follow the steps below to set up and run the project.
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone [<repository-url>](https://github.com/fktona/lightbraincm-task.git)
+git clone https://github.com/fktona/lightbraincm-task.git
 cd lightbraincm-task
 ```
 
