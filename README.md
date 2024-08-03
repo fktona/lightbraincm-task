@@ -91,15 +91,6 @@ If you make changes to the Dockerfile or `docker-compose.yml` and need to rebuil
 docker-compose up --build
 ```
 
-### Running Tests
-
-To run tests for the project, use the following command:
-
-```bash
-npm test
-# or
-yarn test
-```
 
 ### Linting and Formatting
 
