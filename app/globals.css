@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  background-color: #efece8;
+}
+h2 {
+  width: fit-content;
+}
+h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin-top: 30x;
+  height: 4px;
+  background: #ffb72b;
+  margin-top: 0.5rem;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4c4b;
+  border-radius: 4px;
+}
+
+::selection {
+  color: white;
+  background: #4d4c4b;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: 100% 1%;
+  background-image: linear-gradient(90deg, #0a0e0d 0%, #0a0e0d 100%);
+
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    background-size: 0% 1%;
+    /* background-color:  #0A0E0D; */
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.menuli {
+  position: relative;
+  animation: li 0.3s linear 0.4s forwards;
+  bottom: -50px;
+}
+
+@keyframes li {
+  0% {
+    bottom: -50px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+.menuli:hover {
+  color: #ffb72b;
+}
+@keyframes fade {
+  0% {
+    background-size: 100% 0%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.navHover:hover {
+  background-repeat: no-repeat;
+  background-size: 100% 1%;
+  background-image: linear-gradient(90deg, #ffb72b 0%, #ffb72b 100%);
+  box-shadow:
+    3px 3px 10px 0px rgba(255, 255, 255, 0.216),
+    -3px -3px 10px 0px rgba(255, 255, 255, 0.216);
+  animation: fade 0.2s linear alternate forwards;
+  background-position: bottom;
+  transform: scale(1.1);
+}

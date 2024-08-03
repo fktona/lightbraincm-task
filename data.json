@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1, 
+    "name": "Campus Comfort Hostel",
+    "img_url": "https://example.com/img1.jpg",
+    "featured":true,
+    "distance_to_campus": {
+      "car": "5 mins",
+      "walking": "15 mins",
+      "public_transport": "10 mins"
+    },
+    "description": "A cozy hostel with modern amenities and a friendly atmosphere.",
+    "facilities": ["WiFi", "Laundry", "Common Room", "24/7 Security"],
+    "type": "shared",
+    "price": 200,
+    "ratings": 4.5,
+    "last_cheap": "cheapest in the past week"
+  },
+  {
+    "id":2,  
+    "name": "Greenwood Stay",
+    "img_url": "https://example.com/img2.jpg",
+    "featured":true,
+    "distance_to_campus": {
+      "car": "8 mins",
+      "walking": "20 mins",
+      "public_transport": "12 mins"
+    },
+    "description": "An eco-friendly hostel with green spaces and a calm environment.",
+    "facilities": ["WiFi", "Garden", "Bike Rental", "Kitchen"],
+    "type": "entire place",
+    "price": 300,
+    "ratings": 4.7,
+    "last_cheap": "cheapest in the past 5 month"
+  },
+  {
+    "id":3,  
+    "name": "City Edge Hostel",
+    "img_url": "https://example.com/img3.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "3 mins",
+      "walking": "10 mins",
+      "public_transport": "7 mins"
+    },
+    "description": "A centrally located hostel with easy access to city attractions.",
+    "facilities": ["WiFi", "Laundry", "Gym", "24/7 Reception"],
+    "type": "shared",
+    "price": 250,
+    "ratings": 4.2,
+    "last_cheap": "cheapest in the past 3 month"
+  },
+  {
+    "id":4,  
+    "name": "Lakeside Hostel",
+    "img_url": "https://example.com/img4.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "7 mins",
+      "walking": "25 mins",
+      "public_transport": "15 mins"
+    },
+    "description": "A serene hostel with beautiful lake views and tranquil surroundings.",
+    "facilities": ["WiFi", "Laundry", "Lake Access", "BBQ Area"],
+    "type": "entire place",
+    "price": 450,
+    "ratings": 4.8,
+    "last_cheap": "cheapest in the past 6 months"
+  },
+  { 
+    "id":5,  
+    "name": "Urban Nest Hostel",
+    "img_url": "https://example.com/img5.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "4 mins",
+      "walking": "12 mins",
+      "public_transport": "8 mins"
+    },
+    "description": "A stylish hostel with modern facilities and a vibrant community.",
+    "facilities": ["WiFi", "Common Room", "Café", "Library"],
+    "type": "shared",
+    "price": 230,
+    "ratings": 4.6,
+    "last_cheap": "cheapest in the past week"
+  },
+  {
+    "id":6,  
+    "name": "Hilltop Hostel",
+    "img_url": "https://example.com/img6.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "6 mins",
+      "walking": "18 mins",
+      "public_transport": "11 mins"
+    },
+    "description": "A hostel located on a hill with stunning views and fresh air.",
+    "facilities": ["WiFi", "Gym", "Rooftop Terrace", "Game Room"],
+    "type": "entire place",
+    "price": 420,
+    "ratings": 4.4,
+    "last_cheap": "cheapest in the past month"
+  },
+  {
+    "id":7,  
+    "name": "Downtown Dorms",
+    "img_url": "https://example.com/img7.jpg",
+      "featured":false,
+    "distance_to_campus": {
+      "car": "2 mins",
+      "walking": "8 mins",
+      "public_transport": "5 mins"
+    },
+    "description": "A budget-friendly hostel in the heart of the city, close to everything.",
+    "facilities": ["WiFi", "Laundry", "Kitchen", "Common Room"],
+    "type": "shared",
+    "price": 220,
+    "ratings": 4.1,
+    "last_cheap": "cheapest in the pas 2 year"
+  },
+  {
+    "id":8,  
+    "name": "Garden View Hostel",
+    "img_url": "https://example.com/img8.jpg",
+    "featured":true,
+    "distance_to_campus": {
+      "car": "10 mins",
+      "walking": "30 mins",
+      "public_transport": "20 mins"
+    },
+    "description": "A peaceful hostel with beautiful garden views and relaxing ambiance.",
+    "facilities": ["WiFi", "Garden", "BBQ Area", "Laundry"],
+    "type": "entire place",
+    "price": 380,
+    "ratings": 4.9,
+    "last_cheap": "cheapest in the past 3 month"
+  },
+  {
+    "id":9,  
+    "name": "Student Haven",
+    "img_url": "https://example.com/img9.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "5 mins",
+      "walking": "15 mins",
+      "public_transport": "10 mins"
+    },
+    "description": "A hostel designed specifically for students with study-friendly amenities.",
+    "facilities": ["WiFi", "Library", "Study Room", "Laundry"],
+    "type": "shared",
+    "price": 299,
+    "ratings": 4.3,
+    "last_cheap": "cheapest in the past 3 week"
+  },
+  {
+    "id":10, 
+    "name": "Campus Connect Hostel",
+    "img_url": "https://example.com/img10.jpg",
+      "featured":false,
+    "distance_to_campus": {
+      "car": "3 mins",
+      "walking": "12 mins",
+      "public_transport": "8 mins"
+    },
+    "description": "A well-connected hostel with easy access to public transport and campus.",
+    "facilities": ["WiFi", "Laundry", "Common Room", "Kitchen"],
+    "type": "shared",
+    "price": 250,
+    "ratings": 4.5,
+    "last_cheap": "cheapest in the past week"
+  },
+  {
+    "id":11,  
+    "name": "Riverside Hostel",
+    "img_url": "https://example.com/img11.jpg",
+    "featured":true,
+    "distance_to_campus": {
+      "car": "9 mins",
+      "walking": "25 mins",
+      "public_transport": "15 mins"
+    },
+    "description": "A charming hostel by the river with scenic views and a calm atmosphere.",
+    "facilities": ["WiFi", "Laundry", "River Access", "BBQ Area"],
+    "type": "entire place",
+    "price": 420,
+    "ratings": 4.6,
+    "last_cheap": "cheapest in the past 6 months"
+  },
+  {
+    "id":12,  
+    "name": "City Lights Hostel",
+    "img_url": "https://example.com/img12.jpg",
+    "featured":false,
+    "distance_to_campus": {
+      "car": "4 mins",
+      "walking": "12 mins",
+      "public_transport": "9 mins"
+    },
+    "description": "A modern hostel with vibrant city views and great nightlife nearby.",
+    "facilities": ["WiFi", "Gym", "Common Room", "24/7 Reception"],
+    "type": "shared",
+    "price": 320,
+    "ratings": 4.4,
+    "last_cheap": "cheapest in the past 2 month"
+  },
+  {
+    "id":13,  
+    "name": "Quiet Corner Hostel",
+    "img_url": "https://example.com/img13.jpg",
+    "featured":true,
+    "distance_to_campus": {
+      "car": "7 mins",
+      "walking": "20 mins",
+      "public_transport": "13 mins"
+    },
+    "description": "A quiet hostel in a peaceful neighborhood, perfect for relaxation.",
+    "facilities": ["WiFi", "Garden", "Library", "Laundry"],
+    "type": "entire place",
+    "price": 340,
+    "ratings": 4.7,
+    "last_cheap": "cheapest in the past year"
+  },
+  {
+    "id":14,
+    "name": "Campus Central Hostel",
+    "img_url": "https://example.com/img14.jpg",
+      "featured":true,
+    "distance_to_campus": {
+      "car": "2 mins",
+      "walking": "7 mins",
+      "public_transport": "5 mins"
+    },
+    "description": "A centrally located hostel with easy access to campus and city amenities.",
+    "facilities": ["WiFi", "Common Room", "Café", "Laundry"],
+    "type": "shared",
+    "price": 310,
+    "ratings": 4.3,
+    "last_cheap": "cheapest in the past month"
+  }
+]
