@@ -1,6 +1,6 @@
-Here's a comprehensive README file detailing each step to run the Next.js TypeScript project, both locally and with Docker, along with additional information about the project:
 
-# Next.js TypeScript Project
+
+# Next.js
 
 ## Requirements
 
