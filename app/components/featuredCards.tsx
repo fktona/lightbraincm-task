@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { formatter } from '../utils/helpers';
 import { Hostel } from '@/types';
-import { BusFront, CarFront, PersonStanding } from 'lucide-react';
+import { BusFront, CarFront, PersonStanding , Tag, TagIcon } from 'lucide-react';
 import React from 'react';
 
 const HostelCard: React.FunctionComponent<{ hostel: Hostel }> = ({
@@ -24,6 +24,10 @@ const HostelCard: React.FunctionComponent<{ hostel: Hostel }> = ({
             objectFit="contain"
             className="w-full  aspect-video"
           />
+                    { id === 1 &&
+                     <span className='bg-orange-300 flex items-center justify-center gap-3 z-50 absolute bottom-0 
+                     w-full text-[12px] text-white py-1 text-center'><TagIcon color='#edd45a' size={16} strokeWidth={4} className='rotate-90'/>{price} Uber voucher</span>}
+
         </div>
       </div>
       <div className="px-4 space-y-4">

@@ -34,7 +34,8 @@ const HostelDetails: React.FunctionComponent<{ hostel: Hostel }> = ({
         className="relative flex flex-col lg:flex-row justify-start md:px-6 
       gap-2  bg-white drop-shadow-lg"
       >
-        <div className="relative py-5 lg:max-w-[79%] flex flex-col lg:flex-row justify-start items-center gap-4 w-full">
+        <div className="relative py-5 lg:max-w-[79%] flex flex-col lg:flex-row 
+        justify-start items-center gap-4 w-full">
           <Image
             src={url}
             alt={name}
@@ -42,7 +43,7 @@ const HostelDetails: React.FunctionComponent<{ hostel: Hostel }> = ({
             height={450}
             objectFit="contain"
             className="w-full lg:h-full lg:w-[250px]"
-          />
+          /> 
           <div className="px-4  space-y-2 pb-3 lg:pb-6">
             <p className="md:text-[22px] text-[18px] font-semibold text-gray-900">
               {name}
@@ -108,7 +109,7 @@ const HostelDetails: React.FunctionComponent<{ hostel: Hostel }> = ({
               <span className="text-[11px]">{type}</span>
               <span className="text-[11px]">{formatter.format(price)}</span>
             </div>
-            <button className="px-4 py-2 bg-yellow-500 rounded-sm">
+            <button className="px-4 py-2 hover:scale-105 hover:bg-600 transition-all dur bg-yellow-500 rounded-sm">
               View rooms
             </button>
           </div>

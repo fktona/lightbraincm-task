@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import HostelData from '@/data.json';
 import { Filter, Hostel } from '@/types';
 import HostelDetails from './detailedListingCard';
@@ -79,6 +80,21 @@ const DetailedListing = () => {
 
   const totalPages = Math.ceil(filteredHostels.length / ITEMS_PER_PAGE);
 
+  const containerVariants = {
+    hidden: { opacity: 1 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+  };
+
   return (
     <section className="py-12 relative max-w-[100%]">
       <h2 className="lg:text-[40px] text-[24px] my-6 text-center px-5 font-bold text-gray-900">
@@ -99,14 +115,14 @@ const DetailedListing = () => {
       >
         <div className="">
           <button
-            className="bg-transparent border-blue-900 border-2 w-fit  px-4 py-2 rounded-[30px] text-black shadow-md  md:w-auto mx-2"
+            className="bg-transparent relative hover:bottom-1 transition-all duration-300 border-blue-900 border-2 w-fit  px-4 py-2 rounded-[30px] text-black shadow-md  md:w-auto mx-2"
             onClick={() => handleSortChange('price')}
           >
             Sort by Price{' '}
             {sortKey === 'price' && (sortOrder === 'asc' ? '↑' : '↓')}
           </button>
           <button
-            className="  bg-transparent  w-fit px-4 py-2 rounded-[30px] border-2 text-black border-blue-900 shadow-md  md:w-auto mx-2"
+            className="  bg-transparent hover:bottom-1 transition-all duration-300 relative  w-fit px-4 py-2 rounded-[30px] border-2 text-black border-blue-900 shadow-md  md:w-auto mx-2"
             onClick={() => handleSortChange('ratings')}
           >
             Sort by Rating{' '}
@@ -170,11 +186,17 @@ const DetailedListing = () => {
       </div>
 
       <div className="relative px-5">
-        <div className="">
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={containerVariants}
+        >
           {paginatedHostels.map((hostel: Hostel) => (
-            <HostelDetails key={hostel.id} hostel={hostel} />
+            <motion.div key={hostel.id} variants={itemVariants}>
+              <HostelDetails hostel={hostel} />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
 
       <div className="flex justify-center mt-4 space-x-2">
