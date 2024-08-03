@@ -20,7 +20,7 @@
     "id":2,  
     "name": "Greenwood Stay",
     "img_url": "https://example.com/img2.jpg",
-    "featured":true,
+    "featured":false,
     "distance_to_campus": {
       "car": "8 mins",
       "walking": "20 mins",
