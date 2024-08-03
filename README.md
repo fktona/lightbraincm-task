@@ -20,7 +20,7 @@ Follow the steps below to set up and run the project.
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone [<repository-url>](https://github.com/fktona/lightbraincm-task.git)
+git clone https://github.com/fktona/lightbraincm-task.git
 cd lightbraincm-task
 ```
 
